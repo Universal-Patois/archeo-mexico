@@ -1,3 +1,4 @@
+// @flow
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -6,21 +7,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+   
+        <img width="1200" height="800" 
+        src="https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=1200&height=800&center=lonlat:-98.025204,19.487413&zoom=7.926&marker=lonlat:-99.18140378129307,19.417504427401127;color:%23ff0000;size:medium|lonlat:-99.13145666871111,19.434920059071487;color:%23ff0000;size:medium|lonlat:-99.13767181001903,19.45142224691682;color:%23ff0000;size:medium|lonlat:-99.18984529840759,19.38629399595274;color:%23ff0000;size:medium|lonlat:-99.1826385446747,19.300966605833153;color:%23ff0000;size:medium|lonlat:-99.08985934143946,19.34384875854576;color:%23ff0000;size:medium|lonlat:-99.08464423432359,19.280302407488776;color:%23ff0000;size:medium|lonlat:-99.17705674817176,19.336010892700287;color:%23ff0000;size:medium|lonlat:-99.16848772723255,19.532088763115155;color:%23ff0000;size:medium|lonlat:-99.17345903098777,19.552496210763323;color:%23ff0000;size:medium|lonlat:-98.94707345812529,19.417982496412066;color:%23ff0000;size:medium|lonlat:-98.88156194936796,19.5089328248543;color:%23ff0000;size:medium|lonlat:-98.81823988270918,19.49706713980693;color:%23ff0000;size:medium|lonlat:-99.23083997594672,19.470517039094332;color:%23ff0000;size:medium|lonlat:-99.11711302138467,19.356968837068038;color:%23ff0000;size:medium|lonlat:-98.84359231864616,19.692400928405092;color:%23ff0000;size:medium|lonlat:-99.0705595644601,19.24205501731923;color:%23ff0000;size:medium|lonlat:-99.10128158703326,19.00055550299028;color:%23ff0000;size:medium|lonlat:-99.59767610892395,19.108180966459983;color:%23ff0000;size:medium|lonlat:-99.50326903209061,18.953323705696306;color:%23ff0000;size:medium|lonlat:-99.69382610167177,19.332286868927397;color:%23ff0000;size:medium|lonlat:-99.34110506905984,20.06381286601861;color:%23ff0000;size:medium|lonlat:-99.29633133680795,18.803704959368645;color:%23ff0000;size:medium|lonlat:-99.22208708005691,18.930460062077856;color:%23ff0000;size:medium|lonlat:-99.32594870763975,18.726344166557197;color:%23ff0000;size:medium|lonlat:-99.10589232641063,18.446259416209443;color:%23ff0000;size:medium|lonlat:-98.98764943820458,18.740063666709872;color:%23ff0000;size:medium|lonlat:-98.77162063104451,18.676731230672658;color:%23ff0000;size:medium|lonlat:-98.79974006263036,18.687711990660432;color:%23ff0000;size:medium|lonlat:-98.30249436425365,19.057418025331515;color:%23ff0000;size:medium|lonlat:-98.35031688543748,19.244802752939208;color:%23ff0000;size:medium|lonlat:-98.33981632567999,19.243979687840238;color:%23ff0000;size:medium|lonlat:-96.40411368566247,19.447116476218852;color:%23ff0000;size:medium|lonlat:-97.37777300789753,20.446184211478695;color:%23ff0000;size:medium|lonlat:-97.5029292731945,20.06138883351396;color:%23ff0000;size:medium|lonlat:-97.49681398030063,19.55087907949921;color:%23ff0000;size:medium&apiKey=6d5e50cea6e047c2ba7366bce0d1674f"
+        alt="Loma La Cruz, Tetla de la Solidaridad, Mexico">
+        </img>
     </div>
   );
 }
 
 export default App;
+

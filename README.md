@@ -53,7 +53,6 @@
   * Bootstap
   * PWA
   * CircleCI
-  * Mobile first design
   * Slider
 
   ## Features
@@ -63,8 +62,6 @@
   * Ability to click state and see sites appear on map as pins
   * Ability to click pin and see site information
   * Ability to toggle all site on map
-  * Ability to show in pin that user has visited site
-  * Ability to show in pin that user wants to visit site
   * Ability to filter sites by time period
   * Ability to filter sites by type
   * Ability to filter sites by group of people
@@ -76,6 +73,8 @@
   * Separate page where sites to visit are listed
   * Login page
   * Home page with slider of sites
+  * Ability to show in pin that user has visited site
+  * Ability to show in pin that user wants to visit site
   * About page
   * Page to show all sites as a list
     * Ability to filter sites by time period

@@ -50,11 +50,18 @@
   * Express
   * React Context
   * Firebase/passportJS
-  * Bootstap
+  * Bootstrap
   * PWA
   * CircleCI
   * Mobile first design
   * Slider
+  
+## Colors to use
+
+939935 moss green
+B4AB61 Ecru
+BBC08E Sage
+D4D7CB Timber wolf
 
   ## Features
 
@@ -63,12 +70,12 @@
   * Ability to click state and see sites appear on map as pins
   * Ability to click pin and see site information
   * Ability to toggle all site on map
-  * Ability to show in pin that user has visited site
-  * Ability to show in pin that user wants to visit site
-  * Ability to filter sites by time period
+  <!-- * Ability to show in pin that user has visited site
+  * Ability to show in pin that user wants to visit site -->
+  <!-- * Ability to filter sites by time period
   * Ability to filter sites by type
-  * Ability to filter sites by group of people
-  * Show different pin color for time periods, groups of people, and types(pyramids are shaped like pyramids)
+  * Ability to filter sites by group of people -->
+  <!-- * Show different pin color for time periods, groups of people, and types(pyramids are shaped like pyramids) -->
 
 ### Second Iteration
 

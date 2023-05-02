@@ -1,12 +1,12 @@
 // @flow
 import React from 'react';
-import logo from './logo.svg';
+import Home from '../Home/Home';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <p>sgsdfg</p>
+      <Home />
     </div>
   );
 }
